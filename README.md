@@ -28,7 +28,10 @@ TMXParser is a Tiled Map Editor *.tmx map xml file parser. It is currently a com
 
 * Implement full API
 
-#example 
+
+
+#The ConsoleExample.zip is a example app for printing all info to console.
+#Here is a example of a main() to print to console.
 ```c++
 
 
