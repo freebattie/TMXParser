@@ -30,8 +30,9 @@ TMXParser is a Tiled Map Editor *.tmx map xml file parser. It is currently a com
 
 
 
-#The ConsoleExample.zip is a example app for printing all info to console.
-#Here is a example of a main() to print to console.
+#ConsoleExample.zip 
+* This zip file contains all files needed to print all data form the file test2.tmx  to console
+*  Example of a main() :
 ```c++
 
 
@@ -72,9 +73,7 @@ int main()
 	for (int i = 0; i < tmx.tilesetList.size(); i++) {
 		std::cout << "Tileset[ First GID: " << tmx.tilesetListTEMP[i].firstGID << " Source: " << tmx.tilesetListTEMP[i].source << " ]" << std::endl;
 	}
-											/////////////////////////
-											//TSXParse starts here//
-											///////////////////////
+										
 	
 											/////////////////////////////
 											// prints the tileset INFO//  
@@ -167,13 +166,12 @@ int main()
 
 
 
-														/////////////////////////
-														//TSXParse ends here//
-														///////////////////////
+														
 
-													////////////////////////////////
-													// prints the tile Layer INFO//
-													//////////////////////////////
+												
+								////////////////////////////////
+								// prints the tile Layer INFO //
+								////////////////////////////////
 
 	for (std::map<std::string, TMX::Parser::TileLayer>::iterator                it = tmx.tileLayer.begin(); it != tmx.tileLayer.end(); ++it) {
 		std::cout << "Name  of the Tiled Layer: " << tmx.tileLayer[it->first].name << std::endl;
