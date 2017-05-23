@@ -1,5 +1,6 @@
 **NOTE:**
-this is a forked TMXParser from  solar-storm-studios/TMXParser that also has been merged whit solar-storm-studios/TSXParser to one ccp and header file. added object support and object property support, also added terrain and tile support for more then one tileset.
+this is a forked TMXParser from  solar-storm-studios/TMXParser that was not working correctly and also has been merged whit solar-storm-studios/TSXParser to one ccp and header file. added object support and object property support, also added terrain and tile support for more then one tileset.
+Added suport for correct handling of missing or unused data in the TMX file. added properties support to all data types.
 
 
 
